@@ -5,8 +5,11 @@ title @a[team=cam] title ["",{"text":"\u3042\u306a\u305f\u306f"},{"text":"\u30a4
 playsound minecraft:entity.chicken.ambient master @a[team=cre]
 playsound minecraft:entity.elder_guardian.death master @a[team=inp] ~ ~ ~ 1 1.5
 playsound minecraft:entity.vex.death master @a[team=bait] ~ ~ ~ 1 2
-playsound minecraft:entity.elder_guardian.ambient master @a ~ ~ ~ 1 2
+playsound minecraft:entity.elder_guardian.ambient master @a[team=cam] ~ ~ ~ 1 2
 effect give @a minecraft:blindness 3 255 true
 effect give @a minecraft:slowness 3 255 true
 scoreboard players add art 1
 scoreboard players reset @a desu
+team join inp @a[team=cam]
+team join cre @a[team=bait]
+scoreboard players set @a startooo 1

@@ -11,3 +11,5 @@ execute as @a[scores={cam=1..},team=cam,nbt={SelectedItem:{tag:{rep:1}}}] run fu
 scoreboard players reset @a[team=cam] cam
 execute at @a[scores={cam2=1}] run particle minecraft:dust 1 0 10 1 ~ ~-0.1 ~ 0.01 0.01 0.01 3 35
 scoreboard players reset @a desu
+execute at @a[scores={startooo=1}] run execute unless entity @a[gamemode=survival,team=inp] run function jinro:win.mcfunction/crewin
+execute at @a[scores={startooo=1}] run execute unless entity @a[gamemode=survival,team=cre] run function jinro:win.mcfunction/inpwin
