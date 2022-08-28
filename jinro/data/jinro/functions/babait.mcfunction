@@ -1,0 +1,5 @@
+summon minecraft:bat ~ ~1 ~ {Health:15,Attributes:[{Name:"generic.maxHealth",Base:15}],ActiveEffects:[{Id:20,Amplifier:1,Duration:2147483647,ShowParticles:0b},{Id:24,Amplifier:0,Duration:2147483647,ShowParticles:0b}]}
+summon minecraft:bat ~ ~1 ~ {Health:15,Attributes:[{Name:"generic.maxHealth",Base:15}],ActiveEffects:[{Id:20,Amplifier:1,Duration:2147483647,ShowParticles:0b},{Id:24,Amplifier:0,Duration:2147483647,ShowParticles:0b}]}
+summon minecraft:bat ~ ~1 ~ {Health:15,Attributes:[{Name:"generic.maxHealth",Base:15}],ActiveEffects:[{Id:20,Amplifier:1,Duration:2147483647,ShowParticles:0b},{Id:24,Amplifier:0,Duration:2147483647,ShowParticles:0b}]}
+summon minecraft:bat ~ ~1 ~ {Health:15,Attributes:[{Name:"generic.maxHealth",Base:15}],ActiveEffects:[{Id:20,Amplifier:1,Duration:2147483647,ShowParticles:0b},{Id:24,Amplifier:0,Duration:2147483647,ShowParticles:0b}]}
+summon minecraft:bat ~ ~1 ~ {Health:15,Attributes:[{Name:"generic.maxHealth",Base:15}],ActiveEffects:[{Id:20,Amplifier:1,Duration:2147483647,ShowParticles:0b},{Id:24,Amplifier:0,Duration:2147483647,ShowParticles:0b}]}
