@@ -1,0 +1,4 @@
+scoreboard players set @a startooo 3
+tellraw @a ["",{"text":"A","obfuscated":true},{"text":"\uff5e\uff5e"},{"text":"\u7d50\u679c\u767a\u8868","underlined":true},{"text":"\uff5e\uff5e"},{"text":"A","obfuscated":true},{"text":"\u6751\u4eba\u5074:","color":"aqua"},{"selector":"@a[team=cre]","color":"aqua"},{"text":"\u4eba\u72fc\u5074:","color":"red"},{"selector":"@a[team=inp]","color":"red"},{"text":"\u305d\u306e\u4ed6\u5074:","color":"dark_green"},{"selector":"@a[team=three]","color":"dark_green"},{"text":"\u52dd\u8005:","bold":true,"color":"gold"},{"selector":"@a[team=cre]","bold":true,"underlined":true,"color":"gold"},{"text":"\n\uff5e\uff5e\uff5e\uff5e\uff5e\uff5e\uff5e\uff5e\uff5e\uff5e\uff5e\uff5e"}]
+playsound minecraft:ui.toast.challenge_complete master @a ~ ~ ~ 99 0.7
+title @a title ["",{"text":"A","obfuscated":true,"color":"blue"},{"text":"\u6751\u4eba","color":"aqua"},{"text":"\u52dd\u5229","color":"gold"},{"text":"A","obfuscated":true,"color":"blue"}]
