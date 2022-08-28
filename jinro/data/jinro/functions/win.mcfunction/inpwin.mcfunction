@@ -1,0 +1,4 @@
+scoreboard players set @a startooo 3
+tellraw @a ["",{"text":"A","obfuscated":true},{"text":"\uff5e\uff5e"},{"text":"\u7d50\u679c\u767a\u8868","underlined":true},{"text":"\uff5e\uff5e"},{"text":"A","obfuscated":true},{"text":"\u6751\u4eba\u5074:","color":"aqua"},{"selector":"@a[team=cre]","color":"aqua"},{"text":"\u4eba\u72fc\u5074:","color":"red"},{"selector":"@a[team=inp]","color":"red"},{"text":"\u305d\u306e\u4ed6\u5074:","color":"dark_green"},{"selector":"@a[team=three]","color":"dark_green"},{"text":"\u52dd\u8005:","bold":true,"color":"gold"},{"selector":"@a[team=inp]","bold":true,"underlined":true,"color":"gold"},{"text":"\n\uff5e\uff5e\uff5e\uff5e\uff5e\uff5e\uff5e\uff5e\uff5e\uff5e\uff5e\uff5e"}]
+playsound minecraft:entity.ender_dragon.death master @a ~ ~ ~ 1 1.5
+title @a title ["",{"text":"A","obfuscated":true,"color":"dark_red"},{"text":"\u4eba\u72fc","color":"red"},{"text":"\u52dd\u5229","color":"gold"},{"text":"A","obfuscated":true,"color":"dark_red"}]

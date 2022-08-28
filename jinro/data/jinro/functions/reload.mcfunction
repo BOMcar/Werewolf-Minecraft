@@ -1,4 +1,3 @@
-say Reloaded!
 team add inp "inp"
 team add cre "cre"
 team add bait "bait"
@@ -13,3 +12,4 @@ scoreboard objectives add bait dummy
 scoreboard objectives add cam dummy
 scoreboard objectives add cam2 dummy
 scoreboard objectives add cam3 dummy
+scoreboard objectives add startooo dummy
